@@ -1,26 +1,21 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import React from "react";
 import Navbar from "./components/Navbar";
 
-function App() {
+const App = () => {
   return (
-    <>
-      <div className="relative h-screen w-full bg-slate-950">
-        {/* Navbar - Fixed at the Top */}
-        <Navbar />
+    <div className="relative h-screen w-full bg-neutral-950">
+      {/* ✅ Background Gradient Fix */}
+      <div className="absolute top-0 left-0 w-full h-full z-[-1] bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
 
-        {/* Main Content with Centered Elements */}
-        <div className="relative flex justify-center items-center h-full">
-          {/* Left Gradient */}
-          <div className="absolute left-[-10%] top-[-10%] h-[500px] w-[500px] rounded-full bg-gradient-radial from-pink-500/15 to-transparent blur-3xl"></div>
+      {/* Navbar */}
+      <Navbar />
 
-          {/* Right Gradient */}
-          <div className="absolute right-[-10%] top-[-10%] h-[500px] w-[500px] rounded-full bg-gradient-radial from-pink-500/15 to-transparent blur-3xl"></div>
-        </div>
+      {/* Content */}
+      <div className="relative flex justify-center items-center h-full">
+        
       </div>
-    </>
+    </div>
   );
-}
+};
 
 export default App;
