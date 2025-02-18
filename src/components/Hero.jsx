@@ -1,22 +1,31 @@
 import React from "react";
 import { HERO_CONTENT } from "../constants";
-
+import profile from "../assets/profile.png";
 const Hero = () => {
   return (
     <div className="border-b border-neutral-900 pb-10 lg:mb-20 flex items-center justify-center h-screen bg-black">
-      <div className="flex flex-wrap w-full max-w-5xl px-6">
+      <div className="w-full max-w-7xl px-6 flex justify-between items-center gap-x-[30rem]">
         {/* Left Section - Text Content */}
-        <div className="w-full lg:w-1/2 flex flex-col justify-center items-center lg:items-start text-white">
-          <h1 className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl">Kristin Alex</h1>
-          <p className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">
+        <div className="w-4/6 flex flex-col justify-center text-white text-left">
+          <h1 className="pb-10 text-7xl font-thin tracking-tight lg:text-8xl">
+            Kristin Alex
+          </h1>
+          <p className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-5xl tracking-tight text-transparent">
             Full Stack Developer
           </p>
-          <p className="my-2 max-w-xl py-6 font-light tracking-tighter">{}</p>
-
+          <p className="my-3 max-w-xl py-6 text-gray-400 text-lg font-light tracking-tighter">
+            {HERO_CONTENT}
+          </p>
         </div>
 
-        
-        
+        {/* Right Section - Image (Moved Up) */}
+        <div className="w-10% flex justify-center">
+          <img
+            className="h-[60rem] object-cover rounded-lg shadow-lg -mt-70" // Moved Up
+            src={profile}
+            alt="Profile"
+          />
+        </div>
       </div>
     </div>
   );
