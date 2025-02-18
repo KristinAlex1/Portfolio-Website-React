@@ -14,7 +14,7 @@ export const PROJECTS = [
     image: project1,
     description:
       "Netflix Clone – A full-stack streaming platform built with React, Redux, Firebase, Tailwind CSS, and Stripe. It features secure authentication, movie browsing, subscription plans with Stripe payments, and a fully responsive UI. Users can sign in, explore content, and subscribe to premium plans. Deployed with Firebase Hosting.",
-    technologies: ["React", "Tailwind", "Firebase", "Redux"],
+    technologies: ["React", "Tailwind", "Firebase","Stripe", "Redux"],
     link: "https://netflix-clone-b312c.web.app/"
   },
   {

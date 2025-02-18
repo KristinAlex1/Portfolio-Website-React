@@ -7,14 +7,14 @@ const Navbar = () => {
   return (
     <>
       <div
-        className="absolute top-0 left-0 w-full h-[40rem] z-[0] fixed"
+        className="absolute top-0 left-0 w-full h-[40rem] z-[0]"
         style={{
           background:
             "radial-gradient(ellipse 150% 100% at 50% 0%, rgba(255, 250, 250, 0.1), rgba(0, 0, 0, 0.5), transparent)",
         }}
       ></div>
 
-      <div className="fixed top-0 left-0 w-full flex justify-between items-center px-10 py-5">
+      <div className="top-0 left-0 w-full flex justify-between items-center px-10 py-5">
         {/* Logo Section */}
         <div>
           <img className="h-[10rem] w-[12rem]" src={logo} alt="logo" />

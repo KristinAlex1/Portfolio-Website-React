@@ -6,7 +6,7 @@ const Project = () => {
     <div className='border-b border-neutral-900 pb-4'>
         <h2 className='my-20 text-center font-thin text-6xl'>Projects</h2>
         <div>{PROJECTS.map((project, index) =>(
-            <div key={index} className='mb-4 mt-[1rem] flex flex-wrap lg:justify-center'>
+            <div key={index} className='mb-19 mt-[1rem] flex flex-wrap lg:justify-center'>
                 <div>
                     <img 
                     src={project.image} 
@@ -25,7 +25,7 @@ const Project = () => {
                             {tech}
                         </span>
                     ))}
-                    <h6 className='mt-[2rem] text-xl'>Link: <a className='text-b;ue-300 hover:text-blue-500' href={`${project.link}`}>{project.link} </a></h6>
+                    <h6 className='mt-[2rem] text-xl'>Link: <a className='text-blue-300 hover:text-blue-500 border-b' href={`${project.link}`}>{project.link} </a></h6>
 
                 </div>
                 
