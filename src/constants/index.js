@@ -2,7 +2,8 @@ import project1 from "../assets/Netflix.png"
 
 export const HERO_CONTENT = `I am a passionate full-stack developer with a keen interest in building dynamic and scalable web applications. With hands-on experience in React, React-Native, Javascript, Redux, Firebase, and Tailwind CSS for front-end development, and Node.js and Stripe for seamless back-end integration, I specialize in creating intuitive user interfaces and robust functionalities. My goal is to leverage my expertise in modern web technologies to develop innovative solutions that enhance user experience and drive digital transformation.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+
+
 
 export const EXPERIENCES = [
   {
