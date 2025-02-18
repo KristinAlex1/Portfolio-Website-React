@@ -17,9 +17,9 @@ const About = () => {
           </div>
           
         </div>
-        <div className="w-full my-[2rem] lg:w-1/2">
+        <div className="w-full my-[1rem] lg:w-1/2">
             <div className="flex justify-center lg:justify-start">
-                <div className="my-2 max-w-2xl text-2xl font-thin tracking-tight py-6"><AboutText/></div>
+                <div className="my-2 max-w-2xl text-3xl font-thin tracking-tight py-2"><AboutText/></div>
 
             </div>
 
