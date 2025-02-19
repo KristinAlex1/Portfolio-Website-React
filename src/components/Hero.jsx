@@ -4,7 +4,7 @@ import profile from "../assets/profile.png";
 import HeroText from "./HeroText";
 const Hero = () => {
   return (
-    <div className="border-b border-neutral-900 pb-10 lg:mb-20 flex items-center justify-center h-screen bg-black">
+    <div className="border-b border-neutral-900 -pt-50 lg:mb-20 flex items-center justify-center h-screen bg-black">
       <div className="w-full max-w-7xl px-6 flex justify-between items-center gap-x-[30rem]">
         {/* Left Section - Text Content */}
         <div className="w-4/6 flex flex-col justify-center text-white text-left">
@@ -22,7 +22,7 @@ const Hero = () => {
         {/* Right Section - Image (Moved Up) */}
         <div className="w-10% flex justify-center">
           <img
-            className="h-[60rem] object-cover rounded-lg shadow-lg -mt-70" // Moved Up
+            className="h-[60rem] w-[50rem] object-cover rounded-lg shadow-lg -mt-70" // Moved Up
             src={profile}
             alt="Profile"
           />
