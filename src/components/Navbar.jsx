@@ -7,10 +7,10 @@ const Navbar = () => {
   return (
     <>
       <div
-        className="absolute top-0 left-0 w-full h-[35rem] z-[0]"
+        className="absolute fixed top-0 left-0 w-full h-[35rem] z-[0]"
         style={{
           background:
-            "radial-gradient(ellipse 180% 130% at 50% 10%, rgba(255, 250, 250, 0.1), rgba(0, 0, 0, 0.5), transparent)",
+            "radial-gradient(ellipse 80% 100% at 50% 0%, rgba(255, 250, 250, 0.23), rgba(0, 0, 0, 0.5), transparent)",
         }}
       ></div>
 
