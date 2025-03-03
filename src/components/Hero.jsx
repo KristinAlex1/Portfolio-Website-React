@@ -3,24 +3,7 @@ import { motion } from "framer-motion";
 import profile from "../assets/profile.png";
 import HeroText from "./HeroText";
 
-const containerLeft = (delay) => ({
-    hidden: {x: -100,opacity:0},
-    visible:{
-        x:0,
-        opacity:1,
-        transition: {duration: 0.5, delay:delay},
-    }
-})
 
-const containerRight = (delay) => ({
-    
-    hidden: {x: 200,opacity:0},
-    visible:{
-        x:90,
-        opacity:1,
-        transition: {duration: 0.5, delay:delay},
-    }
-})
 
 
 const Hero = () => {

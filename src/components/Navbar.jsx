@@ -14,14 +14,14 @@ const Navbar = () => {
         }}
       ></div>
 
-      <div className="top-0 left-0 w-full flex justify-between items-center px-10 py-5">
+      <div className="top-0 left-0 w-full flex flex-wrap justify-between items-center px-5 md:px-10 py-5">
         {/* Logo Section */}
         <div>
-          <img className="h-[10rem] w-[12rem]" src={logo} alt="logo" />
+          <img className="h-[6rem] w-[8rem] md:h-[10rem] md:w-[12rem]" src={logo} alt="logo" />
         </div>
 
         {/* Social Icons */}
-        <div className="flex justify-center items-center z-[10] gap-5 text-4xl px-10 py-5">
+        <div className="flex flex-wrap justify-center items-center z-[10] gap-4 md:gap-5 text-3xl md:text-4xl px-5 md:px-10 py-3 md:py-5">
           {/* LinkedIn */}
           <a
             href="https://www.linkedin.com/in/kristin-alex-740a72153"
