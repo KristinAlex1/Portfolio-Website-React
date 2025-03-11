@@ -16,7 +16,7 @@ export const PROJECTS = [
     description:
       "Fin-Track is a smart finance management app for students, designed to track expenses, optimize budgets, and provide savings insights. It analyzes spending patterns, offers personalized financial tips, and alerts users about upcoming deals, helping students make informed financial decisions effortlessly.",
     technologies: ["React", "Redux", "Firebase","Tailwind CSS","Charts.js"],
-    link: "https://github.com/KristinAlex1/FinTracker-React-Firebase"
+    link: "https://fin-tracker-318d8.web.app/"
   },
   {
     title: "Netflix Clone",
