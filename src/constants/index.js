@@ -1,5 +1,6 @@
 import project1 from "../assets/Netflix.png"
 import project2 from "../assets/project2.png"
+import project3 from "../assets/Fin-Track.png"
 
 export const HERO_CONTENT = `I am a passionate full-stack developer with a keen interest in building dynamic and scalable web applications. With hands-on experience in React, React-Native, Javascript, Redux, Firebase, and Tailwind CSS for front-end development, and Node.js and Stripe for seamless back-end integration, I specialize in creating intuitive user interfaces and robust functionalities. My goal is to leverage my expertise in modern web technologies to develop innovative solutions that enhance user experience and drive digital transformation.`;
 
@@ -9,6 +10,14 @@ export const HERO_CONTENT = `I am a passionate full-stack developer with a keen 
 
 
 export const PROJECTS = [
+  {
+    title: "Fin-Track: Personal Finance Tracker",
+    image: project3,
+    description:
+      "Fin-Track is a smart finance management app for students, designed to track expenses, optimize budgets, and provide savings insights. It analyzes spending patterns, offers personalized financial tips, and alerts users about upcoming deals, helping students make informed financial decisions effortlessly.",
+    technologies: ["React", "Redux", "Firebase","Tailwind CSS","Charts.js"],
+    link: "https://github.com/KristinAlex1/FinTracker-React-Firebase"
+  },
   {
     title: "Netflix Clone",
     image: project1,
